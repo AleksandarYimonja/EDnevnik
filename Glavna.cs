@@ -57,5 +57,11 @@ namespace EDnevnik
             Sifarnik frm_sifarnik = new Sifarnik("osoba");
             frm_sifarnik.Show();
         }
+
+        private void raspodelaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Raspodela frm_raspodela = new Raspodela();
+            frm_raspodela.Show();
+        }
     }
 }

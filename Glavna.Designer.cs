@@ -41,6 +41,7 @@ namespace EDnevnik
             this.skolskeGodineToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.predmetiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.osobeToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.raspodelaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -75,6 +76,8 @@ namespace EDnevnik
             // 
             // jedanSaFKToolStripMenuItem
             // 
+            this.jedanSaFKToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.raspodelaToolStripMenuItem});
             this.jedanSaFKToolStripMenuItem.Name = "jedanSaFKToolStripMenuItem";
             this.jedanSaFKToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
             this.jedanSaFKToolStripMenuItem.Text = "Jedan SaFK";
@@ -139,6 +142,13 @@ namespace EDnevnik
             this.osobeToolStripMenuItem1.Text = "Osobe";
             this.osobeToolStripMenuItem1.Click += new System.EventHandler(this.osobeToolStripMenuItem1_Click);
             // 
+            // raspodelaToolStripMenuItem
+            // 
+            this.raspodelaToolStripMenuItem.Name = "raspodelaToolStripMenuItem";
+            this.raspodelaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.raspodelaToolStripMenuItem.Text = "Raspodela";
+            this.raspodelaToolStripMenuItem.Click += new System.EventHandler(this.raspodelaToolStripMenuItem_Click);
+            // 
             // Glavna
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -172,5 +182,6 @@ namespace EDnevnik
         private System.Windows.Forms.ToolStripMenuItem skolskeGodineToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem predmetiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem osobeToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem raspodelaToolStripMenuItem;
     }
 }
